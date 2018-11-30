@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 //testing this commit
 namespace Tra_Verse.Controllers
 {
@@ -10,7 +6,7 @@ namespace Tra_Verse.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "whats up losers";
+            ViewBag.Title = "Always Moving Forward";
             return View();
         }
 
