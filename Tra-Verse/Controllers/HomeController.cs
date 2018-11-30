@@ -39,8 +39,6 @@ namespace Tra_Verse.Controllers
             //4. foreach to cycle through list
             //List<GiphyModel> output = new List<GiphyModel>(); //dont forget your output
 
-
-
             //5. return the view with an object
             return View();
         }
